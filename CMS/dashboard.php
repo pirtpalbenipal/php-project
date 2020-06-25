@@ -55,7 +55,7 @@ Confirm_Login();
 			
 		</ul>
 		<ul class="navbar-nav ml-auto">
-			<li class="nav-item"><a href="log_out.php" class="nav-link"><i style="color:red;" class="fas fa-user-lock"></i> Log Out</a></li>
+			<li class="nav-item"><a href="logout.php" class="nav-link"><i style="color:red;" class="fas fa-user-lock"></i> Log Out</a></li>
 			
 		</ul>
 		</div>

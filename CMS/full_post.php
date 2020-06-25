@@ -105,8 +105,9 @@ if(isset($_POST["Submit"])){
     <!-- main area-->
 
     <div class="col-sm-8">
-      <h1>The Complete Responsive CMS Blog</h1>
-          <h1 class="lead">The Complete blog by using PHP and bootstrap</h1>
+      
+      
+         
          
          <?php
            echo ErrorMessage();
@@ -231,7 +232,8 @@ if(isset($_POST["Submit"])){
       <!-- main area ends here-->
 
       <!-- side area-->
-      <div class="col-sm-4" style="min-height: 40px; background: green;"></div>
+       <?php require_once("footer.php");?>
+
       <!--sise area ends-->
       
     </div>

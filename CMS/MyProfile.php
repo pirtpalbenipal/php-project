@@ -78,25 +78,25 @@ if (strlen($AHeadline)>30) {
 		<div class="collapse navbar-collapse" id="navbarcollapseid">		
 			<ul class="navbar-nav mr-auto"> <!-- mr margin right auto-->
 			<li class="nav-item">
-               <a href="profile.php" class="nav-link"><i class="fas fa-user-friends text-success"></i> My Profile</a><!--font aewsome-->
+               <a href="MyProfile.php" class="nav-link"><i class="fas fa-user-friends text-success"></i> My Profile</a><!--font aewsome-->
            </li>
            <li class="nav-item">
            	<a href="dashboard.php" class="nav-link">Dashboard</a>
            </li>
            <li class="nav-item">
-           	<a href="post.php" class="nav-link">Posts</a>
+           	<a href="posts.php" class="nav-link">Posts</a>
            </li>
            <li class="nav-item">
            	<a href="category.php" class="nav-link">Categories</a>
            </li>
            <li class="nav-item">
-           	<a href="admin.php" class="nav-link">Manage Admins</a>
+           	<a href="admins.php" class="nav-link">Manage Admins</a>
            </li>
            <li class="nav-item">
-           	<a href="comment.php" class="nav-link">Comments</a>
+           	<a href="comments.php" class="nav-link">Comments</a>
            </li>
            <li class="nav-item">
-           	<a href="blog.php" class="nav-link">Live Blogs</a>
+           	<a href="blogs.php" class="nav-link">Live Blogs</a>
            </li>
 			
 		</ul>

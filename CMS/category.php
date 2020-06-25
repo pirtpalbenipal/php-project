@@ -35,7 +35,7 @@ if(isset($_POST['submit']))
       if($execute)
       {
         $_SESSION['succ_msg']="Title added succesfully";
-        redirect_to("basics.html");
+        redirect_to("posts.php");
       }
       else
       {
@@ -71,7 +71,7 @@ if(isset($_POST['submit']))
 		<div class="collapse navbar-collapse" id="navbarcollapseid">		
 			<ul class="navbar-nav mr-auto"> <!-- mr margin right auto-->
 			<li class="nav-item">
-               <a href="profile.php" class="nav-link"><i class="fas fa-user-friends text-success"></i> My Profile</a><!--font aewsome-->
+               <a href="MyProfile.php" class="nav-link"><i class="fas fa-user-friends text-success"></i> My Profile</a><!--font aewsome-->
            </li>
            <li class="nav-item">
            	<a href="dashboard.php" class="nav-link">Dashboard</a>

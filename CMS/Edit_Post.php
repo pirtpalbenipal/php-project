@@ -2,7 +2,7 @@
 <?php require_once("include/function.php");?>
 <?php require_once("include/session.php"); ?>
 <?php
-$SearchQueryParameter = $_GET['id'];
+$SearchQueryParameter = $_GET["id"];
 if(isset($_POST['submit']))
 {  
 $posttitle=$_POST["posttitle"];
@@ -140,7 +140,7 @@ $PostDescription=$_POST['PostDescription'];
        // Fetching Existing Content according to our
     
        $sql  = "SELECT * FROM posts WHERE id=$SearchQueryParameter";
-       $stmt = $connect ->query($sql);
+       $stmt = $connect->query($sql);
        while ($DataRows=$stmt->fetch()) {
          $TitleToBeUpdated    = $DataRows['title'];
          $CategoryToBeUpdated = $DataRows['category'];
